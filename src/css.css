@@ -1,0 +1,37 @@
+button {
+    background: linear-gradient(44deg, red, #fff, blue);
+    padding: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    width: 55px;
+    
+}
+
+/* form {
+    border: 2px ridge rgb(0, 0, 0);
+    width: 400px;
+    background: linear-gradient(45deg, red, #fff, red);
+} */
+
+.div1 {
+    /* border: 3px solid black; */
+    width: 390px;
+    height: 450px;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 10px;
+    /* background-image: url(https://c.stocksy.com/a/I1v300/z9/934172.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    color: wheat;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    border: 2px ridge white;
+}

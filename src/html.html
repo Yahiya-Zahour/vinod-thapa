@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<script>
+    function add() {
+        a = document.getElementById("no.1").value;
+        b = document.getElementById("no.2").value;
+        x = parseInt(a) + parseInt(b) ;
+        
+        //  document.getElementById("result").innerHTML = "addition of two numbers is even " + x;
+        // alert('addition of number' + x)
+        document.getElementById("total").value = x;
+
+    }
+    
+  
+
+    function sub() {
+        a = document.getElementById("no.1").value;
+        b = document.getElementById("no.2").value;
+        x = parseInt(a) - parseInt(b);
+        // alert('sub of number' + x)
+        document.getElementById("total").value = x;
+
+    }
+
+    function multiple() {
+        a = document.getElementById("no.1").value;
+        b = document.getElementById("no.2").value;
+        x = parseInt(a) * parseInt(b);
+        // alert('multiple of number' + x)
+        document.getElementById("total").value = x;
+
+    }
+
+    function Divide() {
+        a = document.getElementById("no.1").value;
+        b = document.getElementById("no.2").value;
+        x = parseInt(a) % parseInt(b);
+        // alert('Divide of number' + x)
+        document.getElementById("total").value = x;
+
+    }
+
+    function Mod() {
+        a = document.getElementById("no.1").value;
+        b = document.getElementById("no.2").value;
+        x = parseInt(a) % parseInt(b);
+        // alert('mod of number' + x)
+        document.getElementById("total").value = x;
+
+    }
+    function num0(x){
+        a = document.getElementById("no.1").value;
+        b = document.getElementById("no.2").value;
+        if (a == "") {
+            document.getElementById("no.1").value=x;
+           
+        }
+       else{
+        document.getElementById("no.2").value=x;
+       }
+       function result()
+       {
+        x =( parseInt(a) + parseInt(b) ) / 2;
+        if (x = 0){
+         document.getElementById("total").innerHTML = "addition of two numbers is even " + x;
+        // alert('addition of number' + x)
+        // document.getElementById("total").value = x;
+
+    }
+    else{
+        document.getElementById("total").innerHTML = "addition of two numbers is odd " + x;
+       } 
+       }
+
+    }
+</script>
+
+<body>
+    <div class="div1">
+
+        <h1>Calculator</h1>
+
+        <label>Enter no.1 :--</label>
+        <input id="no.1" style="margin: 10px;" type="text" placeholder="Enter no.1">
+        <br>
+        <label>Enter no.2 :---</label>
+        <input id="no.2" type="text" placeholder="Enter no.2">
+        <br><br>
+        <label>Total :-</label>
+        <input id="total" type="text" placeholder="Ready to show ">
+        <br>
+        <p id="result"></p>
+        <button onclick=add()>add</button><button onclick=sub()>sub</button><button
+            onclick=multiple()>multiple</button><button onclick=Divide()>Divide</button><button
+            onclick=Mod()>Mod</button>
+        <br>
+        <button onclick=num0(0)>0</button>
+        <button onclick=num0(1)>1</button>
+        <button onclick=num0(2)>2</button>
+        <button onclick=num0(3)>3</button>
+        <button onclick=num0(4)>4</button>
+        <button onclick=num0(5)>5</button>
+        <button onclick=num0(6)>6</button>
+        <button onclick=num0(7)>7</button>
+        <button onclick=num0(8)>8</button>
+        <button onclick=num0(9)>9</button>
+
+        <button >+</button>
+        <button >-</button>
+        <button >/</button>
+        <button >%</button>
+        <button >*</button>
+        <br>
+        <!-- <h1>Hope you enjoy our Calculator</h1> -->
+    </div>
+
+</body>
+
+</html>

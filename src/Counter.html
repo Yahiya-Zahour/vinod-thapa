@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var add=0;
+        var sub=0;
+function counter(){
+    add +=1;
+    sub=add;
+    document.getElementById("output").value=add;
+    if(add==20){
+        alert("sorry max 'imlit is 20");
+    }
+}
+function subr(){
+    sub-=1;
+    add=sub;
+    document.getElementById("output").value=sub;
+    if(sub==0){
+        alert("sorry max 'imlit is 0");
+    }
+}
+    </script>
+</head>
+<body>
+
+    <button id="adrr" onclick="counter()">Add </button>
+    <br><br>
+    <input id="output" type="text" >
+    <br><br>
+    <button id="subrr" onclick="subr()">Sub </button>
+
+</body>
+</html>
