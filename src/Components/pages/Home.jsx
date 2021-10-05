@@ -7,6 +7,7 @@ const Home = () => {
     <img src="Assets/photo1.jpg" alt="" width="400px" height="400px"/>
 <button>ok</button>
 <button>ok</button>
+<button>ok</button>
         </div>
     );
 };
