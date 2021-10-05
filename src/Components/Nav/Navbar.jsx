@@ -9,7 +9,9 @@ const Navbar = () => {
         <NavLink to="/Aboutus">ABOUT US</NavLink>
         <NavLink to="/Contactus">CONTACT US</NavLink>
         <NavLink to="/Service">SERVICE</NavLink>
+    
       </nav>
+      
         </div>
     );
 };

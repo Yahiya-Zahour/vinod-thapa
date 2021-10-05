@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Aboutus from "../pages/Aboutus";
 import Service from "../pages/Service";
 import Contactus from "../pages/Contactus";
+import "./Landing.css"
 const Landing = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const Landing = () => {
           </Route>
         </Switch>
       </Router>
+      
     </div>
   );
 };
