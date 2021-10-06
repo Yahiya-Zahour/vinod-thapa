@@ -11,11 +11,7 @@ const Navbar = () => {
         <NavLink to="/Service">SERVICE</NavLink>
     
       </nav>
-      <button>ok</button>
-      <button>ok</button>
-      <button>ok</button>
-      <button>ok</button>
-      <button>ok</button>
+ 
   
         </div>
     );
