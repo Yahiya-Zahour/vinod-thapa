@@ -11,12 +11,8 @@ const Navbar = () => {
         <NavLink to="/Service">SERVICE</NavLink>
     
       </nav>
- 
-   
-<button>ok</button>
-    <p>Lorem odit incidunt eos vitae. Vel quae reprehenderit eligendi aperiam blanditiis obcaecati!</p>
-    <button>ok</button>
-    <p>Lorem odit incidunt eos vitae. Vel quae reprehenderit eligendi aperiam blanditiis obcaecati!</p>
+ <button>ok</button>
+  
         </div>
     );
 };
