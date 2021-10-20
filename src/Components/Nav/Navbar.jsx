@@ -12,7 +12,7 @@ const Navbar = () => {
     
       </nav>
  
-  
+  <input type="datetime-local" name="" id="" />
 
 
 
