@@ -16,7 +16,6 @@ const Navbar = () => {
 
 
 
-<button>ok</button>
 
 
 
