@@ -17,6 +17,7 @@ const Navbar = () => {
    <button>ok</button>
    
  <input type="text" />
+ <input type="button" name="" id="" />
     
     
     
