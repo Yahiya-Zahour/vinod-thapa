@@ -13,13 +13,7 @@ const Navbar = () => {
       </nav>
    <button>ok</button>
    <button>ok</button>
-   <button>ok</button>
-   <button>ok</button>
-   <button>ok</button>
-   <button>ok</button>
-   <button>ok</button>
-   <button>ok</button>
-   <button>ok</button>
+ 
     
     
     
