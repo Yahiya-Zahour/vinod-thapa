@@ -12,6 +12,7 @@ const Aboutus = () => {
           <img src="Assets/photo3.jpg" alt="" width="500px" height="600px"/>
           </figure>
         
+   ''
         
           
     

@@ -10,6 +10,7 @@ const Navbar = () => {
         <NavLink to="/Contactus">CONTACT US</NavLink>
         <NavLink to="/Service">SERVICE</NavLink>
       </nav>
+      <button>ok</button>
     </div>
   );
 };
