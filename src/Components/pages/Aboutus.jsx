@@ -13,7 +13,8 @@ const Aboutus = () => {
           </figure>
           <button>okk </button>
           <button>okk </button>
-          
+          <button>okk </button>
+
         </div>
     );
 };
