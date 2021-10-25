@@ -20,7 +20,7 @@ const Landing = () => {
           </Route>
           <Route path="/Contactus">
             <Contactus />
-          </Route>
+          </Route>  
           <Route path="/Home">
             <Home />
           </Route>
