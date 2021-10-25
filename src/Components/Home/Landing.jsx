@@ -26,7 +26,7 @@ const Landing = () => {
           </Route>
         </Switch>
       </Router>
-      <button>login</button>
+    
       <button>login</button>
       <button>login</button>
       <button>login</button>
