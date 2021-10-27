@@ -16,7 +16,9 @@ const Landing = () => {
             <Aboutus />
           </Route>
           <Route path="/Service">
-            <Service />
+            <Service name="zahuor" age="17">
+            <h1>hiii  this children props</h1>
+            </Service>
           </Route>
           <Route path="/Contactus">
             <Contactus />
